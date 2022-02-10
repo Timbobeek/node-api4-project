@@ -13,6 +13,7 @@ server.get('/api/users', (req,res)=>{
   ])
 })
 
+// eslint-disable-next-line no-undef
 const PORT = process.env.PORT || 7777
 
 server.listen(PORT, () => {
